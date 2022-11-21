@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1121f4e8c760aaa41804ff876e7a4dd0, type: 3}
+  m_Name: Motivation -  HIGH
+  m_EditorClassIdentifier: 
+  description: You have no motivation to continue working on your game. What do you
+    do?
+  solutions:
+  - Get motivated!
+  - It's all pointless.
+  solutionTexts:
+  - You got motivated and went back to work!
+  - It is all pointless anyways.Why do you even try?
+  succeded: 0
+  type: 3
+  chanceOfSuccess: 0.7
+  minWeeksLost: 0
+  maxWeeksLost: 0
+  minMoneyLost: 0
+  maxMoneyLost: 0
+  minDaysLost: 8
+  maxDaysLost: 16

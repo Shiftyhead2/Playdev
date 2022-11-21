@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d82eaa8755f2cdd4885000c6914c524f, type: 3}
+  m_Name: Investor-MEDIUM
+  m_EditorClassIdentifier: 
+  description: An investor is offering medium help towards your project. Will you
+    take it?
+  solutions:
+  - Yes
+  - No
+  solutionTexts:
+  - They gave you money and extra pair of hands to help you finish the project faster.
+  - You decided to ignore them.
+  minWeeksGained: 1
+  maxWeeksGained: 3
+  minMoneyGained: 1750
+  maxMoneyGained: 4100
