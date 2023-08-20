@@ -46,8 +46,8 @@ public class Loader : MonoBehaviour
 
     void Start()
     {
-        SoundVolume.SetFloat("SoundVolume", volume);
-        MusicMixer.SetFloat("MusicVolume", MusicVolume);
+        SoundVolume.SetFloat("SoundVolume", Mathf.Log10(volume)*20);
+        MusicMixer.SetFloat("MusicVolume", Mathf.Log10(MusicVolume) * 20);
     }
     
     
@@ -55,13 +55,13 @@ public class Loader : MonoBehaviour
     public void ChangeVolume(float vol)
     {
         volume = vol;
-        SoundVolume.SetFloat("SoundVolume", volume);
+        SoundVolume.SetFloat("SoundVolume", Mathf.Log10(volume) * 20);
     }
 
    public void ChangeMusicVolume(float current)
     {
         MusicVolume = current;
-        MusicMixer.SetFloat("MusicVolume", MusicVolume);
+        MusicMixer.SetFloat("MusicVolume", Mathf.Log10(MusicVolume) * 20);
     }
 
     void LoadData()

@@ -230,7 +230,7 @@ public class GameCreator : MonoBehaviour
     {
         if (genre == null || subGenre == null || theme == null || Name == string.Empty)
         {
-            Debug.LogError("WTF? You cannot work on a game if you don't have the needed things!");
+            Debug.LogWarning("WTF? You cannot work on a game if you don't have the needed things!");
         }
         else
         {
